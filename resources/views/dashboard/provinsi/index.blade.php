@@ -32,12 +32,12 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Data Table</h3>
+                            <h3 class="card-title">Data Provinsi</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="provinsiTable" class="table table-bordered table-striped">
-                                <a href="{{ route('provinsi.create') }}" type="button" class="btn btn-primary">Tambah</a>
+                            <a href="{{ route('provinsi.create') }}" type="button" class="btn btn-primary mb-3">Tambah Provinsi</a>
                                 <thead>
                                     <tr>
                                         <th>No</th>
@@ -51,25 +51,26 @@
                                 <tbody>
                                     @foreach ($provinsi as $prov)
                                     <tr>
-                                        <td>{{ $loop->iteration}}</td>
+                                        <td>{{ $loop->iteration }}</td>
                                         <td>{{ $prov->nama }}</td>
                                         <td>{{ $prov->ibukota }}</td>
                                         <td>{{ $prov->latitude }}</td>
                                         <td>{{ $prov->longitude }}</td>
                                         <td>
-                                            <a href="{{ route('provinsi.edit', $prov->id) }}" class="btn btn-warning btn-sm">Edit</a>
-                                            <form action="{{ route('provinsi.delete', $prov->id) }}" method="POST" style="display:inline-block;">
+                                            <a href="{{ route('provinsi.edit', $prov->id) }}" class="btn btn-primary btn-sm me-2">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
+                                            <form action="{{ route('provinsi.delete', $prov->id) }}" method="POST" style="display: inline-block;">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button onclick="if(!confirm('Yakin dihapus nih?')) {return false}" type="submit" class="btn btn-danger btn-sm">hapus</button>
+                                                <button onclick="return confirm('Yakin dihapus nih?')" type="submit" class="btn btn-danger btn-sm">
+                                                    <i class="fas fa-trash-alt"></i> Hapus
+                                                </button>
                                             </form>
                                         </td>
                                     </tr>
                                     @endforeach
                                 </tbody>
-                                <tfoot>
-                                    <!-- Optional footer content -->
-                                </tfoot>
                             </table>
                         </div>
                         <!-- /.card-body -->
@@ -106,11 +107,13 @@
 <script src="{{ asset('assets/dist/js/demo.js') }}"></script>
 <!-- Page specific script -->
 <script>
-    $(function () {
-      $("#provinsiTable").DataTable({
-        "responsive": true, "lengthChange": false, "autoWidth": false,
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-      }).buttons().container().appendTo('#provinsiTable_wrapper .col-md-6:eq(0)');
+    $(document).ready(function () {
+        $("#provinsiTable").DataTable({
+            "responsive": true,
+            "lengthChange": false,
+            "autoWidth": false,
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        }).buttons().container().appendTo('#provinsiTable_wrapper .col-md-6:eq(0)');
     });
 </script>
 @endpush

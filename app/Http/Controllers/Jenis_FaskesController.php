@@ -53,4 +53,5 @@ class Jenis_FaskesController extends Controller
         
         return view('dashboard.jenis_faskes.edit', compact('jenis_faskes'));
     }
+    
 }

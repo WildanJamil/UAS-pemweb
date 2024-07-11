@@ -4,6 +4,11 @@
 <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
 @endpush
 
 @section('content')
@@ -37,7 +42,7 @@
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="jenis_faskesTable" class="table table-bordered table-striped">
-                                <a href="{{ route('jenis_faskes.create') }}" type="button" class="btn btn-primary">Tambah</a>
+                                <a href="{{ route('jenis_faskes.create') }}" type="button" class="btn btn-primary mb-3">Tambah Jenis Faskes</a>
                                 <thead>
                                     <tr>
                                         <th>No</th>
@@ -51,13 +56,18 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $jenis_faskes->nama }}</td>
                                         <td>
-                                            <a href="{{ route('jenis_faskes.edit', $jenis_faskes->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                                            <a href="{{ route('jenis_faskes.edit', $jenis_faskes->id) }}" class="btn btn-primary btn-sm me-2">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
                                             <form action="{{ route('jenis_faskes.delete', $jenis_faskes->id) }}" method="POST" style="display:inline-block;">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button onclick="if(!confirm('Yakin dihapus nih?')) {return false}" type="submit" class="btn btn-danger btn-sm">hapus</button>
+                                                <button onclick="if(!confirm('Yakin dihapus nih?')) {return false}" type="submit" class="btn btn-danger btn-sm me-2">
+                                                    <i class="fas fa-trash-alt"></i> Hapus
+                                                </button>
                                             </form>
                                         </td>
+                                                                          
                                     </tr>
                                     @endforeach
                                 </tbody>

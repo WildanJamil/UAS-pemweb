@@ -36,38 +36,38 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
           <a href="{{ route('dashboard') }}" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
+            <i class="fas fa-tachometer-alt nav-icon"></i>
             <p>Dashboard</p>
           </a>
         </li>
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
           <a href="{{ route('jenis_faskes.index') }}" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
+            <i class="fas fa-hospital nav-icon"></i>
             <p>Jenis Faskes</p>
           </a>
         </li>
         <li class="nav-item">
           <a href="{{ route('provinsi.index') }}"class ="nav-link">
-            <i class="far fa-circle nav-icon"></i>
+            <i class="fas fa-map-marked-alt nav-icon"></i>
             <p>Provinsi</p>
           </a>
         </li>
         <li class="nav-item">
           <a href="{{ route('kabkota.index') }}"class ="nav-link">
-            <i class="far fa-circle nav-icon"></i>
+            <i class="fas fa-city nav-icon"></i>
             <p>Kabupaten Kota</p>
           </a>
           <li class="nav-item">
             <a href="{{ route('kategori.index') }}"class ="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="fas fa-list-alt nav-icon"></i>
               <p>Kategori</p>
             </a>
           </li>
         </li>
         <li class="nav-item">
           <a href="{{ route('faskes.index') }}" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
+            <i class="fas fa-clinic-medical nav-icon"></i>
             <p>Fasilitas Kesehatan</p>
           </a>
         </li>

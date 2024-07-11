@@ -37,7 +37,7 @@
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="faskesTable" class="table table-bordered table-striped">
-                                <a href="{{ route('faskes.create') }}" type="button" class="btn btn-primary">Tambah</a>
+                                <a href="{{ route('faskes.create') }}" type="button" class="btn btn-primary mb-3">Tambah FasKes</a>
                                 <thead>
                                     <tr>
                                         <th>No</th>
@@ -71,13 +71,18 @@
                                         <td>{{ $faskes->jenisFaskes->nama }}</td>
                                         <td>{{ $faskes->kategori->nama }}</td>
                                         <td>
-                                            <a href="{{ route('faskes.edit', $faskes->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                                            <a href="{{ route('faskes.edit', $faskes->id) }}" class="btn btn-primary btn-sm me-2">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
                                             <form action="{{ route('faskes.delete', $faskes->id) }}" method="POST" style="display:inline-block;">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button onclick="if(!confirm('Yakin dihapus nih?')) {return false}" type="submit" class="btn btn-danger btn-sm">hapus</button>
+                                                <button onclick="if(!confirm('Yakin dihapus nih?')) {return false}" type="submit" class="btn btn-danger btn-sm">
+                                                    <i class="fas fa-trash-alt"></i> Hapus
+                                                </button>
                                             </form>
                                         </td>
+                                        
                                     </tr>
                                     @endforeach
                                 </tbody>

@@ -170,48 +170,338 @@ https://templatemo.com/tm-586-scholar
 
 
 
+<div class="services section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/images/service-01.png" alt="hospital">
+          </div>
+          <div class="main-content">
+            <h4>Hospital</h4>
+            <p>Providing comprehensive medical care, including emergency services, inpatient and outpatient care.</p>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/images/service-02.png" alt="specialized clinic">
+          </div>
+          <div class="main-content">
+            <h4>Specialized Clinic</h4>
+            <p>Offering specialized care in areas such as cardiology, oncology, mental health, and more.</p>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <div class="icon">
+            <img src="assets/images/service-03.png" alt="health center">
+          </div>
+          <div class="main-content">
+            <h4>Health Center</h4>
+            <p>Providing primary health services, including immunizations, health screenings, and disease prevention.</p>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <div class="services section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="icon">
-              <img src="assets/images/service-01.png" alt="online degrees">
-            </div>
-            <div class="main-content">
-              <h4>Online Degrees</h4>
-              <p>Whenever you need free templates in HTML CSS, you just remember TemplateMo website.</p>
-              <div class="main-button">
-                <a href="#">Read More</a>
+
+
+<section class="section courses" id="faskes">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="section-heading">
+          <h2>Informasi Faskes</h2>
+        </div>
+      </div>
+    </div>
+    <ul class="event_filter">
+      <li>
+        <a class="is_active" href="#!" data-filter="*">Show All</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".rsu">RSU</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".rsk">RSK</a>
+      </li>
+      <li>
+        <a href="#!" data-filter=".puskesmas">Puskesmas</a>
+      </li>
+    </ul>
+    <div class="row event_box">
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer rsu">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/rs1.png" alt=""></a>
+            <span class="price"><h6><em>$</em>160</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Rumah Sakit Umum</h4></span>
+            <p>Melayani berbagai jenis perawatan dan pengobatan untuk pasien dengan berbagai kondisi medis. Termasuk layanan darurat, rawat inap, dan rawat jalan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer rsk">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/rs2.jpg" alt=""></a>
+            <span class="price"><h6><em>$</em>340</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Rumah Sakit Khusus</h4></span>
+            <p>Rumah Sakit Umum menyediakan berbagai jenis layanan medis dan bedah, termasuk perawatan darurat, rawat inap, rawat jalan, dan berbagai spesialisasi medis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer rsk">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/rs3.jpeg" alt=""></a>
+            <span class="price"><h6><em>$</em>640</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Rumah Sakit Halik</h4></span>
+            <p>Rumah Sakit Khusus fokus pada bidang medis tertentu, seperti jantung, kanker, kesehatan jiwa, atau ibu dan anak, dengan fasilitas dan tenaga medis yang terlatih di bidang tersebut.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer puskesmas">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/ps1.png" alt=""></a>
+            <span class="price"><h6><em>$</em>100</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Puskesmas</h4></span>
+            <p>Fasilitas kesehatan tingkat pertama yang menyediakan layanan kesehatan dasar, termasuk imunisasi, pemeriksaan kesehatan rutin, dan penanganan penyakit menular.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer puskesmas">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/ps2.jpeg" alt=""></a>
+            <span class="price"><h6><em>$</em>120</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Puskesmas Abadi</h4></span>
+            <p>Mereka aktif dalam program promosi kesehatan dan pencegahan penyakit, seperti penyuluhan kesehatan, kampanye imunisasi, dan kegiatan posyandu.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer puskesmas">
+        <div class="events_item">
+          <div class="thumb">
+            <a href="#"><img src="assets/images/ps3.jpeg" alt=""></a>
+            <span class="price"><h6><em>$</em>140</h6></span>
+          </div>
+          <div class="down-content">
+            <span class="author"><h4>Puskesmas Jaya</h4></span>
+            <p>Puskesmas biasanya terletak di dekat atau di dalam komunitas yang dilayaninya, memudahkan akses masyarakat terhadap layanan kesehatan, dan sering bekerja sama dengan kader kesehatan masyarakat setempat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section events" id="events">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="section-heading">
+          <h2>Daftar Fasilitas Kesehatan</h2>
+        </div>
+      </div>
+      @auth
+      @if (Auth::user()->hasRole('faskes'))
+      <div class="col-lg-12">
+        <div class="card my-4 shadow">
+          <div class="card-body">
+            @if ($errors->any())
+              <div class="alert alert-danger">
+                <ul>
+                  @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                  @endforeach
+                </ul>
+              </div>
+            @endif
+            <form action="{{ route('faskes.store2') }}" method="post">
+              @csrf
+              <div class="form-group row">
+                <label for="nama" class="col-md-4 col-form-label text-md-right">Nama</label>
+                <div class="col-md-8">
+                  <input type="text" name="nama" id="nama" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="nama_pengelola" class="col-md-4 col-form-label text-md-right">Nama Pengelola</label>
+                <div class="col-md-8">
+                  <input type="text" name="nama_pengelola" id="nama_pengelola" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="alamat" class="col-md-4 col-form-label text-md-right">Alamat</label>
+                <div class="col-md-8">
+                  <input type="text" name="alamat" id="alamat" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="website" class="col-md-4 col-form-label text-md-right">Website</label>
+                <div class="col-md-8">
+                  <input type="text" name="website" id="website" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
+                <div class="col-md-8">
+                  <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="kabkota_id" class="col-md-4 col-form-label text-md-right">Kabupaten/Kota</label>
+                <div class="col-md-8">
+                  <select name="kabkota_id" id="kabkota_id" class="form-control">
+                    <option value="" hidden>Pilih kabkota</option>
+                    @foreach ($kabkota as $k)
+                      <option value="{{ $k->id }}">{{ $k->nama }}</option>
+                    @endforeach
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="rating" class="col-md-4 col-form-label text-md-right">Rating</label>
+                <div class="col-md-8">
+                  <input type="number" name="rating" id="rating" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="latitude" class="col-md-4 col-form-label text-md-right">Latitude</label>
+                <div class="col-md-8">
+                  <input type="text" name="latitude" id="latitude" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="longitude" class="col-md-4 col-form-label text-md-right">Longitude</label>
+                <div class="col-md-8">
+                  <input type="text" name="longitude" id="longitude" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="jenis_faskes_id" class="col-md-4 col-form-label text-md-right">Jenis Faskes</label>
+                <div class="col-md-8">
+                  <select name="jenis_faskes_id" id="jenis_faskes_id" class="form-control">
+                    <option value="" hidden>Pilih jenis_faskes</option>
+                    @foreach ($jenis_faskes as $j)
+                      <option value="{{ $j->id }}">{{ $j->nama }}</option>
+                    @endforeach
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="kategori_id" class="col-md-4 col-form-label text-md-right">Kategori</label>
+                <div class="col-md-8">
+                  <select name="kategori_id" id="kategori_id" class="form-control">
+                    <option value="" hidden>Pilih kategori</option>
+                    @foreach ($kategori as $k)
+                      <option value="{{ $k->id }}">{{ $k->nama }}</option>
+                    @endforeach
+                  </select>
+                </div>
+              </div>
+              <br>
+              <div class="d-flex justify-content-center">
+                <input type="submit" value="Tambah" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      @endif  
+      @endauth
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-6 mb-4">
+            <div class="card item p-3 shadow border-0">
+              <div class="row no-gutters">
+                <div class="col-lg-3">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="image">
+                    <img src="assets/images/rumahsakit.png" alt="" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Rumah Sakit UI</h5>
+                    <p class="card-text"><span class="badge badge-primary">Umum</span></p>
+                    <p class="card-text"><small class="text-muted">Date: 16 Feb 2024</small></p>
+                    <p class="card-text"><small class="text-muted">Duration: 20 Hours</small></p>
+                    <p class="card-text"><small class="text-muted">Price: $120</small></p>
+                    <a href="#" class="btn btn-link p-0"><i class="fa fa-angle-right"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="icon">
-              <img src="assets/images/service-02.png" alt="short courses">
-            </div>
-            <div class="main-content">
-              <h4>Short Courses</h4>
-              <p>You can browse free templates based on different tags such as digital marketing, etc.</p>
-              <div class="main-button">
-                <a href="#">Read More</a>
+          <div class="col-lg-12 col-md-6 mb-4">
+            <div class="card item p-3 shadow border-0">
+              <div class="row no-gutters">
+                <div class="col-lg-3">
+                  <div class="image">
+                    <img src="assets/images/rsj.png" alt="" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Rumah Sakit Jantung</h5>
+                    <p class="card-text"><span class="badge badge-primary">Khusus</span></p>
+                    <p class="card-text"><small class="text-muted">Date: 24 Feb 2024</small></p>
+                    <p class="card-text"><small class="text-muted">Duration: 10 Hours</small></p>
+                    <p class="card-text"><small class="text-muted">Price: $120</small></p>
+                    <a href="#" class="btn btn-link p-0"><i class="fa fa-angle-right"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="icon">
-              <img src="assets/images/service-03.png" alt="web experts">
-            </div>
-            <div class="main-content">
-              <h4>Web Experts</h4>
-              <p>You can start learning HTML CSS by modifying free templates from our website too.</p>
-              <div class="main-button">
-                <a href="#">Read More</a>
+          <div class="col-lg-12 col-md-6 mb-4">
+            <div class="card item p-3 shadow border-0">
+              <div class="row no-gutters">
+                <div class="col-lg-3">
+                  <div class="image">
+                    <img src="assets/images/puskesmas.jpg" alt="" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Puskesmas Abadi</h5>
+                    <p class="card-text"><span class="badge badge-primary">Umum</span></p>
+                    <p class="card-text"><small class="text-muted">Date: 12 Mar 2024</small></p>
+                    <p class="card-text"><small class="text-muted">Duration: 15 Hours</small></p>
+                    <p class="card-text"><small class="text-muted">Price: $140</small></p>
+                    <a href="#" class="btn btn-link p-0"><i class="fa fa-angle-right"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -219,299 +509,8 @@ https://templatemo.com/tm-586-scholar
       </div>
     </div>
   </div>
+</div>
 
-  <section class="section courses" id="faskes" >
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h2>Informasi Faskes</h2>
-          </div>
-        </div>
-      </div>
-      <ul class="event_filter">
-        <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".design">RSU</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".development">RSK</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".wordpress">Puskesmas</a>
-        </li>
-      </ul>
-      <div class="row event_box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/rs1.png" alt=""></a>
-              <span class="price"><h6><em>$</em>160</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Rumah Sakit Umum</h4></span>
-              <p>Melayani berbagai jenis perawatan dan pengobatan untuk pasien dengan berbagai kondisi medis. Termasuk layanan darurat, rawat inap, dan rawat jalan.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/rs2.jpg" alt=""></a>
-              <span class="price"><h6><em>$</em>340</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Rumah Sakit Khusus</h4></span>
-              <p>Rumah Sakit Umum menyediakan berbagai jenis layanan medis dan bedah, termasuk perawatan darurat, rawat inap, rawat jalan, dan berbagai spesialisasi medis.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/rs3.jpeg" alt=""></a>
-              <span class="price"><h6><em>$</em>640</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Rumah Sakit Halik</h4></span>
-              <p>Rumah Sakit Khusus fokus pada bidang medis tertentu, seperti jantung, kanker, kesehatan jiwa, atau ibu dan anak, dengan fasilitas dan tenaga medis yang terlatih di bidang tersebut.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/ps1.png" alt=""></a>
-              <span class="price"><h6><em>$</em>100</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Puskesmas</h4></span>
-              <p> Fasilitas kesehatan tingkat pertama yang menyediakan layanan kesehatan dasar, termasuk imunisasi, pemeriksaan kesehatan rutin, dan penanganan penyakit menular.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/ps2.jpeg" alt=""></a>
-              <span class="price"><h6><em>$</em>120</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Puskesmas Abadi</h4></span>
-              <p>Mereka aktif dalam program promosi kesehatan dan pencegahan penyakit, seperti penyuluhan kesehatan, kampanye imunisasi, dan kegiatan posyandu.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/ps3.jpeg" alt=""></a>
-              <span class="price"><h6><em>$</em>140</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author"><h4>Puskesmas Jaya</h4></span>
-              <p>Puskesmas biasanya terletak di dekat atau di dalam komunitas yang dilayaninya, memudahkan akses masyarakat terhadap layanan kesehatan, dan sering bekerja sama dengan kader kesehatan masyarakat setempat.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="section events" id="events">
-    <div class="container">
-      <div class="row">
-       
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h2>Daftar Fasilitas Kesehatan</h2>
-          </div>
-        </div>
-        @auth
-        @if (Auth::user()->hasRole('faskes'))
-        <div class="col-lg-12 col-md-6">
-          <div class="card">
-              <div class="card-body">
-                  @if ($errors->any())
-                      <div class="alert alert-danger">
-                          <ul>
-                              @foreach ($errors->all() as $error)
-                                  <li>{{ $error }}</li>
-                              @endforeach
-                          </ul>
-                      </div>
-                  @endif
-                  <form action="{{ route('faskes.store2') }}" method="post">
-                      @csrf
-                      <div class="form-group row">
-                          <label for="nama" class="col-md-4">Nama</label>
-                          <input type="text" name="nama" id="nama" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="nama_pengelola" class="col-md-4">Nama Pengelola</label>
-                          <input type="text" name="nama_pengelola" id="nama_pengelola" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="alamat" class="col-md-4">Alamat</label>
-                          <input type="text" name="alamat" id="alamat" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="website" class="col-md-4">Website</label>
-                          <input type="text" name="website" id="website" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="email" class="col-md-4">Email</label>
-                          <input type="email" name="email" id="email" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="kabkota_id" class="col-md-4">Kabupaten/Kota ID</label>
-                          <select name="kabkota_id" id="kabkota_id" class="form-control col-md-8">
-                              <option value="" hidden>Pilih kabkota</option>
-                              @foreach ($kabkota as $k)
-                                  <option value="{{ $k->id }}">{{ $k->nama }}</option>
-                              @endforeach
-                          </select>
-                      </div>
-                      <div class="form-group row">
-                          <label for="rating" class="col-md-4">Rating</label>
-                          <input type="number" name="rating" id="rating" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="latitude" class="col-md-4">Latitude</label>
-                          <input type="text" name="latitude" id="latitude" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="longitude" class="col-md-4">Longitude</label>
-                          <input type="text" name="longitude" id="longitude" class="form-control col-md-8" required>
-                      </div>
-                      <div class="form-group row">
-                          <label for="jenis_faskes_id" class="col-md-4">Jenis Faskes ID</label>
-                          <select name="jenis_faskes_id" id="jenis_faskes_id" class="form-control col-md-8">
-                              <option value="" hidden>Pilih jenis_faskes</option>
-                              @foreach ($jenis_faskes as $j)
-                                  <option value="{{ $j->id }}">{{ $j->nama }}</option>
-                              @endforeach
-                          </select>
-                      </div>
-                      <div class="form-group row">
-                          <label for="kategori_id" class="col-md-4">Kategori ID</label>
-                          <select name="kategori_id" id="kategori_id" class="form-control col-md-8">
-                              <option value="" hidden>Pilih kategori</option>
-                              @foreach ($kategori as $k)
-                                  <option value="{{ $k->id }}">{{ $k->nama }}</option>
-                              @endforeach
-                          </select>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                          <input type="submit" value="Tambah" class="btn btn-primary">
-                      </div>
-                  </form>
-              </div>
-          </div>
-        </div>
-        @endif  
-        @endauth
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/rumahsakit.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Umum</span>
-                    <h4>Rumah Sakit UI</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>16 Feb 2024</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>20 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$120</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/rsj.png" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Khusus</span>
-                    <h4>Rumah Sakit Jantung</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>24 Feb 2024</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>10 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$120</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/puskesmas.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Umum</span>
-                    <h4>Puskesmas Abadi</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>12 Mar 2024</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>15 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$140</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="team section" id="team">
     <div class="container">
@@ -519,7 +518,7 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="">
+              <img src="assets/images/halik.png" alt="">
               <span class="category">Backend</span>
               <h4>Abd.Kholik</h4>
               <ul class="social-icons">
@@ -533,7 +532,7 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-02.jpg" alt="">
+              <img src="assets/images/wildan.jpg" alt="">
               <span class="category">Frontend</span>
               <h4>M. Wildan Jamil</h4>
               <ul class="social-icons">
@@ -547,7 +546,7 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-03.jpg" alt="">
+              <img src="assets/images/fadil.jpg" alt="">
               <span class="category">Frontend</span>
               <h4>M. Fadilah AlFarouk</h4>
               <ul class="social-icons">
@@ -561,7 +560,7 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-04.jpg" alt="">
+              <img src="assets/images/fakih.jpg" alt="">
               <span class="category">Frontend</span>
               <h4>M.Faqihuddin</h4>
               <ul class="social-icons">
@@ -579,7 +578,7 @@ https://templatemo.com/tm-586-scholar
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Copyright © 2024 FasKes. All rights reserved. &nbsp;&nbsp;&nbsp; Design: <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a> Distribution: <a href="https://themewagon.com" rel="nofollow" target="_blank">ThemeWagon</a></p>
+        <p>Copyright © 2024 FasKes. All rights reserved. &nbsp;&nbsp;&nbsp; Design: <a href="https://templatemo.com" rel="nofollow" target="_blank">Kelompok </a> 6: <a href="https://themewagon.com" rel="nofollow" target="_blank">ThemeWagon</a></p>
       </div>
     </div>
   </footer>
