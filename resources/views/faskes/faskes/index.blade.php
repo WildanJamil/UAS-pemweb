@@ -64,12 +64,12 @@
                                         <td>{{ $faskes->alamat }}</td>
                                         <td>{{ $faskes->website }}</td>
                                         <td>{{ $faskes->email }}</td>
-                                        <td>{{ $faskes->kabkota_id }}</td>
+                                        <td>{{ $faskes->kabkota->nama }}</td>
                                         <td>{{ $faskes->rating }}</td>
                                         <td>{{ $faskes->latitude }}</td>
                                         <td>{{ $faskes->longitude }}</td>
-                                        <td>{{ $faskes->jenis_faxskes_id }}</td>
-                                        <td>{{ $faskes->kategori_id }}</td>
+                                        <td>{{ $faskes->jenisFaskes->nama }}</td>
+                                        <td>{{ $faskes->kategori->nama }}</td>
                                         <td>
                                             <a href="{{ route('faskes.edit', $faskes->id) }}" class="btn btn-warning btn-sm">Edit</a>
                                             <form action="{{ route('faskes.delete', $faskes->id) }}" method="POST" style="display:inline-block;">

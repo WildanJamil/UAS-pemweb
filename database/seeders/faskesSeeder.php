@@ -18,6 +18,7 @@ class FaskesSeeder extends Seeder
             'alamat' => 'Jl. Sehat No.123',
             'website' => 'http://puskesmasxyz.com',
             'email' => 'halik123@gmail.com',
+            'kabkota_id' => '2',
             'rating' => 4.5,
             'latitude' => -6.914744,
             'longitude' => 107.609810,

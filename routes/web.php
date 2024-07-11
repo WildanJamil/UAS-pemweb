@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FaskesController;
+use App\Http\Controllers\IndexController;
 use App\Http\Controllers\Jenis_FaskesController;
 use App\Http\Controllers\KabkotaController;
 use App\Http\Controllers\KategoriController;
@@ -11,9 +12,7 @@ use App\Models\Jenis_Faskes;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [IndexController::class, 'index'])->name('home');
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
@@ -70,6 +69,7 @@ Route::middleware(['auth', 'verified', 'role:admin|faskes'])->group(function () 
     Route::get('/faskes', [FaskesController::class, 'index'])->name('faskes.index');
     Route::get('/faskes/create', [FaskesController::class, "create"])->name('faskes.create');
     Route::post('/faskes/store', [FaskesController::class, "store"])->name('faskes.store');
+    Route::post('/faskes/store2', [FaskesController::class, "store2"])->name('faskes.store2');
     Route::delete('/faskes/delete/{id}', [FaskesController::class, "delete"])->name('faskes.delete');
     Route::get('/faskes/edit/{id}', [FaskesController::class, "edit"])->name('faskes.edit');
 });
