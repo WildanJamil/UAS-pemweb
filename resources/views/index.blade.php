@@ -67,13 +67,13 @@ https://templatemo.com/tm-586-scholar
   
       .header-area .main-nav .nav li a {
         text-decoration: none;
-        color: #000;
+        color: #dddbe9;
         transition: color 0.3s;
       }
   
       .header-area .main-nav .nav li a:hover,
       .header-area .main-nav .nav li a:focus {
-        color: #FF2D20;
+        color: #f6fffd;
       }
   
       .header-area .main-nav .menu-trigger {
@@ -519,12 +519,12 @@ https://templatemo.com/tm-586-scholar
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/halik.png" alt="">
-              <span class="category">Backend</span>
+              <span>Backend</span>
               <h4>Abd.Kholik</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>F
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
@@ -533,7 +533,7 @@ https://templatemo.com/tm-586-scholar
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/wildan.jpg" alt="">
-              <span class="category">Frontend</span>
+              <span>Frontend</span>
               <h4>M. Wildan Jamil</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -547,7 +547,7 @@ https://templatemo.com/tm-586-scholar
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/fadil.jpg" alt="">
-              <span class="category">Frontend</span>
+              <span>Frontend</span>
               <h4>M. Fadilah AlFarouk</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -561,7 +561,7 @@ https://templatemo.com/tm-586-scholar
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/fakih.jpg" alt="">
-              <span class="category">Frontend</span>
+              <span>Frontend</span>
               <h4>M.Faqihuddin</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>

@@ -32,7 +32,6 @@
           <x-box caption="Fasilitas Kesehatan" total="{{ $faskes }}" bg="bg-info" icon="icon-hospital" url="faskes"/>
         </div>
         <!-- Main row -->
-        <h1>Welcome to Project UAS</h1>
           <!-- right col -->
         </div>
         <!-- /.row (main row) -->
